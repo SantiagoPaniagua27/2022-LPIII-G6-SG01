@@ -1,0 +1,3 @@
+Programa de premio
+Adivina el numero
+que esta del 1 al 10
