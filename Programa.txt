@@ -1,3 +1,7 @@
-Programa de premio
-Adivina el numero
+Programa de premio.
+Adivina el número,
 que esta del 1 al 10
+Si adivina el número,
+se hara acreedor de un premio.
+Usted adivino el número,
+su premio es : ....
