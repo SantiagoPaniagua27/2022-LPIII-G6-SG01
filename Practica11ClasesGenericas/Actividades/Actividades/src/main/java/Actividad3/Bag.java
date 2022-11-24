@@ -40,14 +40,17 @@ public class Bag <T>{
         }
         throw new ObjectNoExist("No existe en la lista");
     }
-    
-    public int getIxdex(T obj){
+
+    public int getIndex(T obj){
+        int devolver = -1;
         for(int i = 0; i < list.length;i++){
             if(list[i] == obj)
-                return i;
+                devolver = i;
         }
-        return -1;
+        return devolver;
     }
+
+    
     @Override
     public String toString(){
         return "Bag: " +
