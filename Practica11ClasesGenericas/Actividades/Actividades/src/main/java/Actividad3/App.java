@@ -13,7 +13,7 @@ public class App {
         bolsaInteger.add(3);
         bolsaInteger.getObjects();
         System.out.println(bolsaInteger);
-        bolsaInteger.remove(4);
+     
         System.out.println(bolsaInteger.getIxdex(2));
         System.out.println(bolsaInteger);        
         System.out.println("-------------------------------------------------");

@@ -1,4 +1,3 @@
-package actividad2;
 
 import Actividad1.Persona;
 

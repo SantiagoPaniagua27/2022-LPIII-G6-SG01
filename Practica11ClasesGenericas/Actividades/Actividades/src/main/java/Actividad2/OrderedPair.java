@@ -1,4 +1,4 @@
-package actividad2;
+
 
 public class OrderedPair <K,V>  implements Pair<K,V>{
 	private K key;
