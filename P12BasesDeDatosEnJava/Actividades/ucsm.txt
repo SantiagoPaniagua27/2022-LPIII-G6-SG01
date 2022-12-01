@@ -1,0 +1,27 @@
+CREATE DATABASE ucsm;
+
+use ucsm;
+CREATE TABLE cursos(
+codigo integer(5) PRIMARY KEY,
+nombre Char(30) NOT NULL,
+creditoGeneral integer(5)
+);
+
+INSERT INTO cursos
+(codigo, nombre, creditoGeneral)
+VALUES
+(7104343, 'Computacion en red', 4),
+(7104347, 'Fundamentos de Sistemas de informacion', 4),
+(7104404, 'Fisica', 4),
+(7104406, 'Lenguaje de Programación', 3),
+(7104407, 'Responsabilidad Ciudadana', 2),
+(7104408, 'Taller de argumentacion', 2);
+
+
+UPDATE cursos
+SET descripcion = "Calculo Integral"
+WHERE codigo = 4;
+
+DELETE FROM cursos WHERE creditoGeneral =1;
+
+select num_letras('a');
